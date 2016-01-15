@@ -1,0 +1,7 @@
+%h1 Mantenimiento::OrganizationalUnits#new
+%p Find me in app/views/mantenimiento/organizational_units/new.html.haml
+= form_for @user , as: :get, url: mantenimiento_organizational_units_create_path, method: :get , html: { class: "edit_post", id: "edit_post_45"} do |f|
+  
+  %input{:name => "organizational_units[code]"}
+ 
+  = f.button :submit

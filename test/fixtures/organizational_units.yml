@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: MyString
+  cost_center: MyString
+  name: MyString
+  description: 
+  organizational_unit_id: MyString
+  user_id: 1
+
+two:
+  code: MyString
+  cost_center: MyString
+  name: MyString
+  description: 
+  organizational_unit_id: MyString
+  user_id: 1
